@@ -1,6 +1,7 @@
 {
   "name": "solidity-ls",
   "description": "Solidity Language Server",
+  "version": "0.5.0",
   "main": "dist/index.js",
   "scripts": {
     "esbuild": "esbuild --sourcemap --platform=node --bundle --external:sol* --external:vscode* --external:prettier* --outdir=dist",
